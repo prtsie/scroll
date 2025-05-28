@@ -1,12 +1,23 @@
 .sun {
   width: 10vh;
   height: 10vh;
-  background-color: black;
   border-radius: 50%;
   position: absolute;
-  top: 40vh;
-  left:40vh;
-  transform-origin: 40vh 50%;
+  z-index: 1;
+}
+
+.sky {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+.ground {
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
 }
 
 html, body {
