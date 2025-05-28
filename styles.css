@@ -1,0 +1,17 @@
+.sun {
+  width: 10vh;
+  height: 10vh;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40vh;
+  left:40vh;
+  transform-origin: 40vh 50%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
